@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lots</string>
+    <string name="button_yes_no_text">YES/NO</string>
+    <string name="press_button_text">Press Button</string>
+    <string name="decide_button_text">DECIDE</string>
+    <string name="no_text">NO</string>
+    <string name="wait_text">wait...</string>
+    <string name="button_lots_text">LOTS</string>
+    <string name="yes_text">YES</string>
+    <string name="how_many_lots_text">How many lots?</string>
+    <string name="next_button_text">Next</string>
+    <string name="back_button_text">Back</string>
+    <string name="type_names_explanation">type names, divided by dot \" . \"</string>
+    <string name="quit_button_text">Quit</string>
+</resources>

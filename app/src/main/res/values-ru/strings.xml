@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Жребий</string>
+    <string name="button_yes_no_text">ДА/НЕТ</string>
+    <string name="press_button_text">жми кнопку</string>
+    <string name="decide_button_text">РЕШИ</string>
+    <string name="no_text">НЕТ</string>
+    <string name="wait_text">жди...</string>
+    <string name="button_lots_text">ЖРЕБИЙ</string>
+    <string name="yes_text">ДА</string>
+    <string name="how_many_people_text">Сколько человек?</string>
+    <string name="how_many_lots_text">Сколько жребиев?</string>
+    <string name="next_button_text">Далее</string>
+    <string name="back_button_text">Назад</string>
+    <string name="type_names_explanation">напиши имена, разделяя точкой \" . \"</string>
+</resources>
