@@ -27,13 +27,14 @@ public class NamesActivity extends AppCompatActivity {
 
     public void buttonAcceptNamesPressed(View view) {
         String inputText = editTextNames.getText().toString();
-        inputText = inputText.replaceAll("\\.$", "");
-        if (inputText.contains(".")) {
+        String[] wordsArray = inputText.split(" ");
+        int length = wordsArray.length;
+        if (length >= 2) {
             Intent intent = new Intent(this, LotsActivity.class);
             intent.putExtra("namesString", inputText);
             startActivity(intent);
         } else {
-            Toast.makeText(this, "enter at least 2 names", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "введи минимум 2 имени", Toast.LENGTH_LONG).show();
         }
     }
 

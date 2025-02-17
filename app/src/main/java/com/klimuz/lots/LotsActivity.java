@@ -36,7 +36,8 @@ public class LotsActivity extends AppCompatActivity {
         textViewLotsDecision = findViewById(R.id.textViewLotsDecision);
         editTextNumberOfLots = findViewById(R.id.editTextNumberOfLots);
 
-        arrayList = new ArrayList<>(Arrays.asList(persons.split("\\.")));
+        String[] personsArray = persons.split(" ");
+        arrayList = new ArrayList<>(Arrays.asList(personsArray));
 
         mPlayer = MediaPlayer.create(this, R.raw.coin);
         mPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
